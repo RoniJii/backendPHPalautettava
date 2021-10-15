@@ -11,3 +11,4 @@ if (isset($_SERVER['HTTP_ORIGIN'])) {
 if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 	return 0;
 }
+
