@@ -18,5 +18,5 @@ try {
     $data = array('id' => $db->lastInsertId(), 'description' => $description, 'amount' => $amount);
     print json_encode($data);
    } catch (PDOException $pdoex) {
-         returnError($pdoex)
+         returnError($pdoex);
 }
